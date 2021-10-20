@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://kit.fontawesome.com/d3418c68cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbarContainer">
+            <img src="Pictures/logo.png" id="logo" alt="Melting Pot">
+            <div class="navbarToggle" id="mobile">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navMenu">
+                <li class="navItem">
+                    <a href="Page 1.html" class="navLinks">About</a>
+                </li>
+                <li class="navItem">
+                    <a href="Page 2.html" class="navLinks">Service</a>
+                </li>
+                <li class="navItem">
+                    <a href="form.html" class="navLinks">Contact</a>
+                </li>
+                <li class="navButton">
+                    <a href="/" class="button">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="form">
+        <form method="POST" class="formSheet">
+            <div class="input">
+                <input type="text" class="name" name="Name" required>
+                <label for="name"><i class="fas fa-user"></i>Name</label>
+            </div>
+            <div class="input">
+                <input type="text" class="number" name="Phone Number" required>
+                <label for="number"><i class="fas fa-phone"></i>Phone Number</label>
+            </div>
+            <div class="input">
+                <input type="email" class="email" name="E-mail" required>
+                <label for="email"><i class="fas fa-envelope-square"></i>E-mail</label>
+            </div>
+            <div class="input">
+                <textarea class="message" rows="8" name="Message" required></textarea>
+                <label for="message"><i class="fas fa-pencil-alt"></i>Message</label>
+            </div>
+            <button type="submit" class="formButton"><i class="fas fa-share-square"></i>Submit</button>
+        </form>
+    </div>
+
+
+
+    
+<footer>
+    <div class="footContainer">
+        <div class="socialMedia">
+            <div class="socialWrap">
+                <div class="footLogo">
+                    <img src="Pictures/logo.png" height="130px" alt="Melting Pot">
+                </div>
+                <p class="rights">&#169 Melting Pot 2021. All rights</p>
+                <div class="socialIcon">
+                    <a href="/" class="socialLinks" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="socialLinks" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="/" class="socialLinks" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="socialLinks" target="_blank">
+                        <i class="fab fa-snapchat"></i>
+                    </a>
+                    <a href="/" class="socialLinks" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

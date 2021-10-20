@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://kit.fontawesome.com/d3418c68cc.js" crossorigin="anonymous"></script>
+</head>
+<body id="serviceBody">
+    <nav class="navbar">
+        <div class="navbarContainer">
+            <img src="Pictures/logo.png" id="logo" alt="Melting Pot">
+            <div class="navbarToggle" id="mobile">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navMenu">
+                <li class="navItem">
+                    <a href="Page 1.html" class="navLinks">About</a>
+                </li>
+                <li class="navItem">
+                    <a href="Page 2.html" class="navLinks">Service</a>
+                </li>
+                <li class="navItem">
+                    <a href="form.html" class="navLinks">Contact</a>
+                </li>
+                <li class="navButton">
+                    <a href="/" class="button">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="mainContainer">
+        <div class="header">
+            <h1 id="head">Search Engine</h1>
+            </div>
+
+            <div id="item" class="type">
+                <div class = "container">
+                    <div class = "mealWrapper">
+                      <div class = "mealSearch">
+                        <h2 class = "title">Find Meals For Your Ingredients</h2>
+                        <div class = "mealSearchBox">
+                          <input type = "text" class = "searchControl" placeholder="Enter an ingredient" id = "searchInput">
+                          <button type = "submit" class = "searchBtn btn" id = "searchBtn">
+                            <i class = "fas fa-search"></i>
+                          </button>
+                        </div>
+                      </div>
+                
+                      <div class = "mealResult">
+                        <h2 class = "title">Your Search Results:</h2>
+                        <div id= "meal">
+
+                        </div>
+                      </div>
+                
+                
+                      <div class = "mealDetails">
+
+                        <button type = "button" class = "btn recipeCloseBtn" id = "recipeCloseBtn">
+                          <i class = "fas fa-times"></i>
+                        </button>
+                
+                        <div class = "mealDetailsContent">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>            
+    </div>
+    
+
+
+    
+    <footer id="footer">
+        <div class="footContainer">
+            <div class="socialMedia">
+                <div class="socialWrap">
+                    <div class="footLogo">
+                        <img src="Pictures/logo.png" height="130px" alt="Melting Pot">
+                    </div>
+                    <p class="rights">&#169 Melting Pot 2021. All rights</p>
+                    <div class="socialIcon">
+                        <a href="/" class="socialLinks" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="socialLinks" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="/" class="socialLinks" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="/" class="socialLinks" target="_blank">
+                            <i class="fab fa-snapchat"></i>
+                        </a>
+                        <a href="/" class="socialLinks" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
